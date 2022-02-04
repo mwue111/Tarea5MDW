@@ -110,7 +110,7 @@ public class MDW_tarea6 {
     }
      
     public static int ej5(int x, int y){
-
+    	
         while(x!=y){
             if (x>y){
                 x=x-y;
@@ -121,11 +121,11 @@ public class MDW_tarea6 {
         }
         return x;
     }
-    
+    						//5		6		6
     public static int ej6(int num, int x, int y){
         
         if(x<y){
-            
+            //6		5			6
             if(x<=num && num<=y){
                 return 1;
             }
@@ -160,10 +160,10 @@ public class MDW_tarea6 {
     
     public static int ej8(int x, int y) {
         int contador = 0; //Iniciamos el contador en cero
-
+		
         for(int i = 0; i <= y; i++)
-        {
-            if(i % x == 0) //Preguntamos si el residuo es 0 (es múltiplo de x)
+        {	        	
+            if(i % x == 0) //Preguntamos si el residuo es 0 (es múltiplo de x)  
             {
                 contador++; //Si es múltiplo aumentamos el contador en 1
             }

@@ -1,12 +1,6 @@
-/**
- * 
- */
+
 package depuracionMDW;
 
-/**
- * @author Juan Simón
- *
- */
 public class MDW_Calculadora {
 	
 	public MDW_Calculadora(){
